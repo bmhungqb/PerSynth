@@ -89,7 +89,7 @@
                     <span class="icon">
                       <i class="fab fa-github"></i>
                     </span>
-                    <span>Code</span>
+                    <span>Code (coming soon..)</span>
                   </a>
                 </span>
 
@@ -112,9 +112,46 @@
 </section>
 
 
-<!-- Teaser video-->
+<!-- Paper abstract -->
+<section class="section hero is-light">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Abstract</h2>
+        <div class="content has-text-justified">
+          <p>
+          Recent human image animation methods predominantly rely on motion signals extracted from driving videos, which limits the diversity and flexibility of generated actions. To overcome these constraints, we propose a novel pipeline that synthesizes human motion videos from a single reference image guided by free-form text descriptions. Our approach first generates 3D pose sequences from text using a dedicated text-to-motion model. These poses are then reformatted into a standardized keypoint representation compatible with existing animation engines and aligned to the reference image’s pose to preserve identity and spatial coherence. Finally, we leverage pretrained image-to-video synthesis models to produce high-quality, temporally consistent animations without additional retraining. Preliminary results demonstrate that our method can render diverse, text-driven motions while maintaining visual fidelity and structural consistency.          </p>
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End paper abstract -->
 
-<!-- End teaser video -->
+<!-- Paper method -->
+<section class="hero is-small">
+  <div class="container is-max-desktop">
+    <!-- Method -->
+    <div class="hero-body">
+      <div class="content has-text-justified">
+        <h2 class="title is-3">Method</h2>
+        <p>
+        In this work, we focus on the challenging task of text-guided image-to-video synthesis specifically for whole-body human character animation. Given a reference image depicting the full body of a character and a text prompt describing a long sequence of actions, our model generates a coherent and realistic animated video of the character. The general pipeline of our method is illustrated below.
+        </p>
+      </div>
+      <div class="columns is-centered">
+          <img src="assets/pipeline.png" style="max-width: 800px" />
+      </div>
+      <!-- <h2 class="subtitle has-text-centered">
+      </h2> -->
+    <!-- subsection -->
+     
+    </div>
+    </div>
+  </div>
+</section>
+<!-- End paper method -->
 
 <!-- ---------------- BEGIN Showcases SECTION ------------------>
 
